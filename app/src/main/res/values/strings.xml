@@ -9,4 +9,7 @@
     <string name="button">Button</string>
     <string name="ejemplo">ejemplo</string>
     <string name="crear">crear</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mapa2">Map</string>
+    <string name="mapa">Mapa</string>
 </resources>

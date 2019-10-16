@@ -10,10 +10,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ejemplo" />
+            android:text="@string/ejemplo"
+            tools:text="ingrediente1" />
     </ScrollView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -36,17 +38,17 @@
 
         <TextView
             android:id="@+id/titulo"
-            android:textSize="50px"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/titulo"
+            android:textSize="50px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.088"
-            tools:text="nuevo" />
+            tools:text="Nueva empanada" />
 
         <Button
             android:id="@+id/button"
@@ -73,5 +75,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.346" />
+
+        <Button
+            android:id="@+id/nuevoing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuevo ingrediente"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.426"
+            android:background="@android:color/holo_orange_dark"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>
