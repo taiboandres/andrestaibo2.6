@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 public class conexion extends SQLiteOpenHelper {
 
-
+    final String crear_emp="CREATE TABLE empanada(nombre TEXT, precio INT, ing1 TEXT, ing2 TEXT, ing3 TEXT, ing4 TEXT, ing5 TEXT)";
 
     public conexion(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -16,7 +16,7 @@ public class conexion extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        db.execSQL(crear_emp);
     }
 
     @Override

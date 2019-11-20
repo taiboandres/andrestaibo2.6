@@ -12,4 +12,5 @@
     <string name="title_activity_mapa">Map</string>
     <string name="title_activity_mapa2">Map</string>
     <string name="mapa">Mapa</string>
+    <string name="ingrediente">ingrediente</string>
 </resources>

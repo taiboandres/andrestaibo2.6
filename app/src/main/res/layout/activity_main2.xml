@@ -79,13 +79,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <EditText
-                    android:id="@+id/editText2"
+                <TextView
+                    android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="ingrediente"
-                    android:inputType="textPersonName" />
+                    android:text="@string/ingrediente" />
             </LinearLayout>
         </ScrollView>
 

@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        conexion conn = new conexion(this, "db",null,1);
+
         spinner= (Spinner) findViewById(R.id.spinner);
         ArrayList<String> list = new ArrayList<>();
         list.add("empanada 1");

@@ -31,5 +31,6 @@ public class Main2Activity extends AppCompatActivity {
     {
         dialog dialog=new dialog();
         dialog.show(getSupportFragmentManager(),"dialog");
+
     }
 }
